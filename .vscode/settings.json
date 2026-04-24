@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"/home/linux_kevin/Documents/development/datascience/phase-2/DS_Course1_Week1_Module1_SQLSelectLab\" && python3 -c \"import sqlite3; import pandas as pd; conn = sqlite3\\.connect\\('data\\.sqlite'\\); print\\(pd\\.read_sql\\(\\\\\"\\\\\"\\\\\"SELECT name FROM sqlite_master WHERE type='table'\\\\\"\\\\\"\\\\\", conn\\)\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
